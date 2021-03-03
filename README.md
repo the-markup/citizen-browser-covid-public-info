@@ -2,16 +2,16 @@
 
 This repository contains code to reproduce the findings featured in our story, "[Official Information About COVID-19 Is Reaching Fewer Black People on Facebook - LINK TK](https://themarkup.org/citizen-browser/)" from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
 
-Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)".
+Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
 ## Data
 The `data/` directory contains three CSV files with data from the story.
 
-`Public-health-agency-view-count.csv` shows the proportion of Citizen Browser panelists from different racial demographics who saw sponsored COVID-19-related posts from any public health agency between December 1 2020 and March 1 2021. 
+1. `Public-health-agency-view-count.csv` shows the proportion of Citizen Browser panelists who were shown sponsored COVID-19-related posts from any public health agency between December 1 2020 and March 1 2021, grouped by racial demographic. 
 
-`HSS-view-count.csv` shows the proportion of panelists who saw sponsored COVID-19-related posts from the U.S. Department of Health and Human Services in this time period.
+2. `HSS-view-count.csv` shows the proportion of panelists who saw sponsored COVID-19-related posts from the U.S. Department of Health and Human Services in the same time period.
 
-`Agency-list.csv` contains the list of public health agencies whose posts are included in the data found in `Public-health-agency-view-count.csv`. The agencies are ranked by the number of individual Facebook users in our panel who saw posts from that source.
+3. `Agency-list.csv` contains the list of public health agencies whose posts are included in the data found in (1.). The agencies are ranked by the number of individual Facebook users in our panel who saw posts from that source.
 
  The data in the first two files is arranged as follows:
 
