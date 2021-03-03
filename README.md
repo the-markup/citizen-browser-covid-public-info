@@ -7,7 +7,13 @@ Our methodology is described in "[How We Built a Facebook Inspector](https://the
 ## Data
 The `data/` directory contains three CSV files with data from the story.
 
-`Public-health-agency-view-count.csv` shows the proportion of Citizen Browser panelists from different racial demographics who saw sponsored COVID-19-related posts from any public health agency between December 1 2020 and March 1 2021. `HSS-view-count.csv` shows the proportion of panelists who saw sponsored COVID-19-related posts from the U.S. Department of Health and Human Services in this time period. The data in both files is as follows:
+`Public-health-agency-view-count.csv` shows the proportion of Citizen Browser panelists from different racial demographics who saw sponsored COVID-19-related posts from any public health agency between December 1 2020 and March 1 2021. 
+
+`HSS-view-count.csv` shows the proportion of panelists who saw sponsored COVID-19-related posts from the U.S. Department of Health and Human Services in this time period.
+
+`Agency-list.csv` contains the list of public health agencies whose posts are included in the data found in `Public-health-agency-view-count.csv`. The agencies are ranked by the number of individual Facebook users in our panel who saw posts from that source.
+
+ The data in the first two files is arranged as follows:
 
 | column              | decription                                                                                     |
 |:--------------------|:-----------------------------------------------------------------------------------------------|
@@ -15,8 +21,6 @@ The `data/` directory contains three CSV files with data from the story.
 | user_view_count     | Number of user accounts from this group exposed to selected public health content              |
 | panel_count         | Number of panelists from this group who contributed data to Citizen Browser in the time period |
 | percent_demographic | The figure from user_view_count expressed as a percentage of panel_count                       |
-
-`Agency-list.csv` contains the list of public health agencies whose posts are included in the data found in `Public-health-agency-view-count.csv`. The agencies are ranked by the number of individual Facebook users in our panel who saw posts from that source.
 
 ## Licensing
 Copyright 2021, The Markup News Inc.
