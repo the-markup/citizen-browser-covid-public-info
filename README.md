@@ -1,4 +1,4 @@
-# Citizen Browser: COVID-19 PSA's
+# Citizen Browser: Racial differences in COVID-19 PSA's
 
 This repository contains code to reproduce the findings featured in our story, "[Official Information About COVID-19 Is Reaching Fewer Black People on Facebook - LINK TK](https://themarkup.org/citizen-browser/)" from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
 
@@ -11,11 +11,11 @@ The `data/` directory contains three CSV files with data from the story.
 
 2. `HSS-view-count.csv` shows the proportion of panelists who saw sponsored COVID-19-related posts from the U.S. Department of Health and Human Services in the same time period.
 
-3. `Agency-list.csv` contains the list of public health agencies whose posts are included in the data found in (1.). The agencies are ranked by the number of individual Facebook users in our panel who saw posts from that source.
+3. `Agency-list.csv` contains the list of public health agencies whose posts are included in the data found in (1). The agencies are ranked by the number of individual Facebook users in our panel who saw posts from that source.
 
- The data in the first two files is arranged as follows:
+ Data in the first two files is arranged as follows:
 
-| column              | decription                                                                                     |
+| column              | description                                                                                     |
 |:--------------------|:-----------------------------------------------------------------------------------------------|
 | race                | The racial demographic group panelists belong to (self-identified)                             |
 | user_view_count     | Number of user accounts from this group exposed to selected public health content              |
