@@ -1,6 +1,6 @@
 # Citizen Browser: Racial differences in COVID-19 PSA's
 
-This repository contains code to reproduce the findings featured in our story, "[Official Information About COVID-19 Is Reaching Fewer Black People on Facebook - LINK TK](https://themarkup.org/citizen-browser/)" from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
+This repository contains data underlying the key findings of in our story, "[Official Information About COVID-19 Is Reaching Fewer Black People on Facebook](https://themarkup.org/citizen-browser/2021/03/04/official-information-about-covid-19-is-reaching-fewer-black-people-on-facebook)" from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
 
 Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
